@@ -23,7 +23,7 @@ function updateTimeDOM() {
     document.getElementById('time').textContent = `${time}s`;
 }
 
-// Decrement the timer
+//timer update
 function updateTime() {
     time--;
     updateTimeDOM();
